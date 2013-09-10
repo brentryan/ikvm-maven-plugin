@@ -13,31 +13,13 @@
 
   <name>IKVM Maven Plugin</name>
   <description>A collection of Java utilities.</description>
-  <url>http://github.com/samskivert/ikvm-maven-plugin</url>
-  <issueManagement>
-    <url>http://github.com/samskivert/ikvm-maven-plugin/issues</url>
-  </issueManagement>
-
-  <licenses>
-    <license>
-      <name>The (New) BSD License</name>
-      <url>http://www.opensource.org/licenses/bsd-license.php</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
-
-  <developers>
-    <developer>
-      <id>samskivert</id>
-      <name>Michael Bayne</name>
-      <email>mdb@samskivert.com</email>
-    </developer>
-  </developers>
+  <url>http://github.com/brentryan/ikvm-maven-plugin.git</url>
 
   <scm>
     <connection>scm:git:git@github.com:brentryan/ikvm-maven-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:brentryan/ikvm-maven-plugin.git</developerConnection>
     <url>http://github.com/brentryan/ikvm-maven-plugin.git/</url>
+    <tag>ikvm-maven-plugin-1.2</tag>
   </scm>
 
     <distributionManagement>
