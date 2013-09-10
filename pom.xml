@@ -35,10 +35,23 @@
   </developers>
 
   <scm>
-    <connection>scm:git:git://github.com/samskivert/ikvm-maven-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:samskivert/ikvm-maven-plugin.git</developerConnection>
-    <url>http://github.com/samskivert/ikvm-maven-plugin/</url>
+    <connection>scm:git:git://ggithub.com/brentryan/ikvm-maven-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com/brentryan/ikvm-maven-plugin.git</developerConnection>
+    <url>http://github.com/brentryan/ikvm-maven-plugin.git/</url>
   </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>cvent-repo</id>
+            <name>Cvent Releases Repo</name>
+            <url>http://hq04hqnug001:8081/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>cvent-repo</id>
+            <name>Cvent Snapshots Repo</name>
+            <url>http://hq04hqnug001:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
